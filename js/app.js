@@ -1,6 +1,7 @@
 new Swiper('.slider', {
 	/*direction: 'vertical',*/ /*вертикальная прокрутка (опция)*/
 	speed: 1800,
+	loop: true,
 	mousewheel: {
 		enabled: true, /*включение*/
 		sensitivity: 2 /*чувствительность скролла*/
